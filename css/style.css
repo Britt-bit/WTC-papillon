@@ -1,0 +1,94 @@
+
+
+/* ==========leden ========= */
+
+#lid {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#lid td, #lid th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#lid tr:nth-child(even){background-color: #f2f2f2;}
+
+#lid tr:hover {background-color: #ddd;}
+
+#lid th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* ======== event ========*/
+
+
+    #event {
+        font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+    #event td, #event th {
+        border: 1px solid #ddd;
+        padding: 8px;
+    }
+
+    #event tr:nth-child(even){background-color: #f2f2f2;}
+
+    #event tr:hover {background-color: #ddd;}
+
+    #event th {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        text-align: left;
+        background-color: #4CAF50;
+        color: white;
+}
+
+
+
+
+
+
+
+
+
+/* ========== image gallery ============ */
+
+#foto {
+    margin: auto;
+    padding-top: 23px;
+}
+
+#foto td {
+    border: 1px solid black;
+    background-color: black;
+}
+
+#foto tr.alt {
+    background-color: indianred;
+}
+
+img.left {
+    float: left;
+    /*afbeeldijng links uitlijnen */
+    margin: 0.5em 1em 1em 0;
+    /*ruimte rondom */
+    border: 1px solid #999;
+    /*rand*/
+    clear: left;
+}
+
+img.right {
+    float: right;
+    /*afbeelding rechts */
+    margin: 0.5em 1em 2em 1em;
+    border: 1px solid #999;
+    clear: right;
+}
